@@ -27,6 +27,7 @@ a {
   font-weight: 500;
   color: var(--purple-3);
   text-decoration: inherit;
+  transition: all 150ms ease-in-out;
 }
 a:hover {
   color: var(--purple-4);
@@ -36,13 +37,12 @@ a:hover {
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+p {
+  font-size: clamp(12px, 1.5vmax, 26px);
+  line-height: clamp(16px, 1.9vmax, 32px);
 }
 
 button {
