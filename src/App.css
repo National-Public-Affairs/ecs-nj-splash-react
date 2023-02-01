@@ -15,3 +15,26 @@
 .italic {
   font-style: italic;
 }
+
+h1 {
+  font-family: "alternate-gothic-no-1-d", sans-serif;
+}
+
+h2 {
+  font-size: clamp(12px, 5vmax, 100px);
+  line-height: clamp(22px, 7vmax, 140px);
+}
+
+p {
+  text-align: left;
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+li {
+  text-align: left;
+  font-family: "interstate", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
