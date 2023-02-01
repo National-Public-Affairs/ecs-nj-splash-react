@@ -1,0 +1,12 @@
+.wrapper {
+  padding: 5vh 0;
+}
+
+.logo {
+  width: clamp(75px, 25vmin, 170px);
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  
+}
