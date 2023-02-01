@@ -4,17 +4,17 @@
   left: 0;
   width: 100vw;
   height: 10vh;
-  padding: 0 10%;
   background-color: white;
-  border-bottom: 4px solid var(--purple-3);
+  border-bottom: 6px solid var(--purple-3);
   font-family: "alternate-gothic-no-1-d", sans-serif;
-  font-size: 3rem;
+  font-size: clamp(36px, 2.5vmax, 48px);
   font-weight: 400;
   font-style: normal;
   color: var(--purple-3);
 }
 
 .wrapper {
+  padding: 0 10%;
   display: grid;
   grid-template: 100% / 60% 20%;
 }
@@ -41,6 +41,10 @@
   align-items: center;
 }
 
+.logo {
+  height: 7vh;
+}
+
 .link {
   color: var(--red);
 }
@@ -56,12 +60,9 @@
   }
   
   .mobile-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
   }
 }
