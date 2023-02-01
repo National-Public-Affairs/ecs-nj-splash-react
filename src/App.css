@@ -1,10 +1,17 @@
 #root {
-  width: 100vw;
-  min-height: 100vh;
   margin: 0;
   text-align: center;
 }
 
 .page {
-  margin: 10vh 0 5vh 0;
+  margin: 10vh 0 0 0;
+}
+
+.bold {
+  font-weight: 800;
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
 }
