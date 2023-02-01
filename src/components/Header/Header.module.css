@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 5vh 0;
+  background-color: var(--purple-3);
+  font-family: "alternate-gothic-no-1-d", sans-serif;
+  font-size: clamp(36px, 2.5vmax, 48px);
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.heading {
+  margin: 0;
+  font-size: clamp(12px, 7vmax, 120px);
+  line-height: clamp(28px, 8.5vmax, 180px);
+}
+
+.red {
+  color: var(--red);
+}
+
+.stars {
+  width: clamp(20px, 25%, 300px);
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  
+}
