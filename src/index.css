@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/bqe4bat.css");
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -13,21 +15,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --red: #ef0b2e;
+  --purple-1: #d7d3f7;
+  --purple-2: #a19bdc;
+  --purple-3: #3a3393;
+  --purple-4: #1d195d;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--purple-3);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--purple-4);
+  cursor: pointer;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
