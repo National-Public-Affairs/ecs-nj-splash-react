@@ -1,4 +1,5 @@
 import { Slant as Hamburger } from 'hamburger-react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import styles from './Navbar.module.css';
 
@@ -7,16 +8,15 @@ export default function Navbar() {
     <>
       <nav className={`${styles.wrapper} ${styles.general}`}>
         <div className={styles.left}>
-          <a>
+          <Link to="/">
             <img
               src={logo}
               alt="Elect Common Sense – NJ"
               className={styles.logo}
             />
-          </a>
-          <a>HOME</a>
-          <a>MISSION</a>
-          <a>BOARD</a>
+          </Link>
+          <Link to="/">HOME</Link>
+          <Link to="/mission">MISSION</Link>
         </div>
 
         <div className={styles.right}>
@@ -26,13 +26,13 @@ export default function Navbar() {
 
       {/* mobile navbar */}
       <nav className={`${styles.mobileWrapper} ${styles.general}`}>
-        <a>
+        <Link to="/">
           <img
               src={logo}
               alt="Elect Common Sense – NJ"
               className={styles.logo}
             />
-        </a>
+        </Link>
         <a className={styles.link}>DONATE</a>
         <Hamburger
           rounded
