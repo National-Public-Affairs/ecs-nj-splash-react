@@ -4,7 +4,7 @@ import styles from './Mission.module.css';
 function Content() {
   return (
     <div className={styles.wrapper}>
-      <p>
+      <p className="bold">
         With your help, New Jersey will no longer:
       </p>
 
@@ -22,7 +22,7 @@ function Content() {
         </li>
       </ul>
 
-      <p>
+      <p className="bold">
         Together, we will:
       </p>
 
