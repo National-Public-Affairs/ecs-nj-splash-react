@@ -1,8 +1,14 @@
+import logo from '../../assets/logo.png';
 import styles from './Letter.module.css';
 
 export default function Letter() {
   return (
     <div className={styles.wrapper}>
+      <img
+        src={logo}
+        alt="Elect Common Sense – NJ"
+        className={styles.logo}
+      />
       <p className="bold">
         Friend,
       </p>
