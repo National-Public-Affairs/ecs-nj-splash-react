@@ -9,6 +9,8 @@ export default function Footer() {
         alt="Elect Common Sense – NJ"
         className={styles.logo}
       />
+
+      <div>®All Rights Reserved.</div>
     </div>
   );
 }
