@@ -1,9 +1,11 @@
 import { Slant as Hamburger } from 'hamburger-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <>
       <nav className={`${styles.wrapper} ${styles.general}`}>
@@ -15,8 +17,26 @@ export default function Navbar() {
               className={styles.logo}
             />
           </Link>
-          <Link to="/">HOME</Link>
-          <Link to="/mission">MISSION</Link>
+          <Link
+            to="/"
+            className={
+              location.pathname === '/'
+                ? styles.selected
+                : ''
+            }
+          >
+            HOME
+          </Link>
+          <Link
+            to="/mission"
+            className={
+              location.pathname === '/mission'
+                ? styles.selected
+                : ''
+            }
+          >
+            MISSION
+          </Link>
         </div>
 
         <div className={styles.right}>
@@ -33,11 +53,8 @@ export default function Navbar() {
               className={styles.logo}
             />
         </Link>
+        <Link to="/mission">MISSION</Link>
         <a className={styles.link}>DONATE</a>
-        <Hamburger
-          rounded
-          color="#3a3393"
-        />
       </nav>
     </>
   );
