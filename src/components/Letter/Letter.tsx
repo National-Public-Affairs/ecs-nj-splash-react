@@ -27,7 +27,7 @@ export default function Letter() {
       <p>
         That's why we formed&nbsp;
         <span className="bold italic">Elect Common Sense</span>.
-        As the Honorary Chairman, I am proud to be guiding,&nbsp;
+        As the Honorary Chairman, I am proud to be guiding&nbsp;
         <span className="italic">Elect Common Sense</span>&nbsp;
         as we rewrite the rules of engagement for fighting and winning in New Jersey.
       </p>
@@ -35,7 +35,7 @@ export default function Letter() {
       <br />
 
       <p>
-        Thank You,
+        Join Us,
       </p>
 
       <p>
