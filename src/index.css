@@ -28,10 +28,14 @@ a {
   color: var(--purple-3);
   text-decoration: inherit;
   transition: all 150ms ease-in-out;
+  cursor: pointer;
 }
 a:hover {
+  color: var(--purple-1);
+}
+
+a:active {
   color: var(--purple-4);
-  cursor: pointer;
 }
 
 body {
@@ -46,7 +50,7 @@ p {
 }
 
 li {
-  font-size: clamp(11px, 1.2vmax, 22px);
+  font-size: clamp(11px, 1.4vmax, 22px);
   line-height: clamp(13px, 1.9vmax, 32px);
 }
 
@@ -79,5 +83,18 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  p {
+    font-size: clamp(12px, 2.2vmax, 26px);
+    line-height: clamp(16px, 3vmax, 32px);
+  }
+
+  li {
+    font-size: clamp(11px, 2.2vmax, 22px);
+    line-height: clamp(13px, 3vmax, 32px);
   }
 }
