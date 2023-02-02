@@ -1,8 +1,9 @@
-import Header from "../../components/Header/Header";
+import Header from '../../components/Header/Header';
+import styles from './Mission.module.css';
 
 function Content() {
   return (
-    <>
+    <div className={styles.wrapper}>
       <p>
         With your help, New Jersey will no longer:
       </p>
@@ -38,7 +39,7 @@ function Content() {
           Elect Common Sense
         </li>
       </ul>
-    </>
+    </div>
   );
 }
 
@@ -48,8 +49,10 @@ export default function Mission() {
       <Header
         redText="OUR"
         whiteText="MISSION"
-        children={[<Content />]}
+        children={[]}
       />
+
+      <Content />
     </div>
   );
 }
