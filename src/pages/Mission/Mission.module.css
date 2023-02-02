@@ -1,0 +1,6 @@
+.wrapper {
+  width: 50%;
+  max-width: 600px;
+  margin: 5vh auto;
+  color: var(--purple-4);
+}
