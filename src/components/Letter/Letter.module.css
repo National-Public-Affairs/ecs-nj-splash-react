@@ -10,3 +10,10 @@
   font-style: normal;
   color: var(--purple-4);
 }
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  .wrapper {
+    width: 90%;
+  }
+}
