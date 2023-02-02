@@ -45,6 +45,10 @@
   height: 7vh;
 }
 
+.selected {
+  color: var(--purple-2);
+}
+
 .link {
   color: var(--red);
 }
