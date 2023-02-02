@@ -45,6 +45,11 @@ p {
   line-height: clamp(16px, 1.9vmax, 32px);
 }
 
+li {
+  font-size: clamp(11px, 1.2vmax, 22px);
+  line-height: clamp(13px, 1.9vmax, 32px);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
