@@ -7,7 +7,7 @@ export default function Home() {
       <Header
         redText="ELECT"
         whiteText="COMMON SENSE"
-        children={[<Letter />]}
+        children={[<Letter key={1} />]}
       />
     </div>
   );
