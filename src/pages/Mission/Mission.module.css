@@ -1,13 +1,25 @@
 .wrapper {
-  width: 50%;
+  width: auto;
+  min-width: 33vw;
   max-width: 600px;
   margin: 5vh auto;
   color: var(--purple-4);
+}
+
+.tile-group {
+  margin: 3vh 0 5vh 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
 }
 
 /* general mobile styling */
 @media only screen and (max-width: 900px) and (min-height: 300px) {
   .wrapper {
     width: 90%;
+  }
+
+  .tile-group {
+    flex-flow: column nowrap;
   }
 }
