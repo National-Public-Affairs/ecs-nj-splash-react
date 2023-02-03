@@ -1,0 +1,27 @@
+.wrapper {
+  min-width: 10vw;
+  padding: 1rem;
+  border: 5px solid var(--purple-1);
+  border-radius: 1rem;
+  box-shadow:
+    1px 0.4px 2.2px rgba(0, 0, 0, 0.014),
+    2.5px 0.9px 5.3px rgba(0, 0, 0, 0.02),
+    4.6px 1.8px 10px rgba(0, 0, 0, 0.025),
+    8.3px 3.1px 17.9px rgba(0, 0, 0, 0.03),
+    15.5px 5.8px 33.4px rgba(0, 0, 0, 0.036),
+    37px 14px 80px rgba(0, 0, 0, 0.05)
+  ;
+  cursor: default;
+  transition: all 150ms ease-in-out;
+}
+
+.wrapper:hover {
+  border: 5px solid var(--purple-2);
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  .wrapper {
+    min-height: 15vh;
+  }
+}
