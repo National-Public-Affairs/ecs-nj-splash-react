@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import styles from './Tile.module.css';
 
 type Props = {
   icon: ReactNode | string,
@@ -8,7 +7,7 @@ type Props = {
 
 export default function Tile({ icon, text }: Props) {
   return (
-    <div className={styles.wrapper}>
+    <>
       {
         typeof icon === 'string'
           ? (
@@ -20,6 +19,6 @@ export default function Tile({ icon, text }: Props) {
           : icon
       }
       <div>{text}</div>
-    </div>
+    </>
   );
 }
