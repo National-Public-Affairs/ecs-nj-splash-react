@@ -51,6 +51,7 @@ const secondSectionData = [
 
 function Content() {
   const trail = useTrail(4, {
+    config: { mass: 1, tension: 150, friction: 100, duration: 250 },
     from: {
       opacity: 0,
       transform: 'scale(0.5)',
