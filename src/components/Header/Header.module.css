@@ -27,6 +27,7 @@
   margin: 0;
   font-size: clamp(12px, 7vmax, 120px);
   line-height: clamp(28px, 8.5vmax, 180px);
+  cursor: default;
 }
 
 .red {
