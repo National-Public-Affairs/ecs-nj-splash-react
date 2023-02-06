@@ -10,6 +10,7 @@
   margin: 3vh 0 5vh 0;
   display: flex;
   flex-flow: row nowrap;
+  flex: 1 1 0px;
   gap: 1rem;
 }
 
