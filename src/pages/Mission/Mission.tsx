@@ -13,7 +13,7 @@ import styles from './Mission.module.css';
 function Content() {
   return (
     <div className={styles.wrapper}>
-      <p className="bold">
+      <p className={`${styles.purpleText} bold`}>
         With your help, New Jersey will no longer:
       </p>
 
@@ -40,7 +40,7 @@ function Content() {
       />
      </div>
 
-      <p className="bold">
+      <p className={`${styles.purpleText} bold`}>
         Together, we will:
       </p>
 
