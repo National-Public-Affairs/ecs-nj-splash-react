@@ -1,16 +1,15 @@
 .wrapper {
-  width: auto;
+  width: 80%;
   min-width: 33vw;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 5vh auto;
   color: var(--purple-4);
 }
 
 .tile-group {
-  margin: 3vh 0 5vh 0;
+  margin: 3vh auto 5vh auto;
   display: flex;
   flex-flow: row nowrap;
-  flex: 1 1 0px;
   gap: 1rem;
 }
 
