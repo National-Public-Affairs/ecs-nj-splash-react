@@ -1,3 +1,4 @@
+import Stars from '../Stars/Stars';
 import stars from '../../assets/stars.png';
 import styles from './Header.module.css';
 
@@ -14,11 +15,12 @@ export default function Header({ redText, whiteText, children }: Props) {
         <span className={styles.red}>{redText}</span>&nbsp;
         {whiteText}
       </h1>
-      <img
+      {/* <img
         src={stars}
         alt="Elect Common Sense"
         className={styles.stars}
-      />
+      /> */}
+      <Stars />
       {...children}
     </div>
   );

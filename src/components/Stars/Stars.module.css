@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.star {
+  width: 2vw;
+}
