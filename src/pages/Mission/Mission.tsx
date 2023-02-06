@@ -56,13 +56,13 @@ function Content() {
           borderColor="#ef0b2e"
         />
         <Tile
-          icon={<Ballot fillColor="#ef0b2e" />}
-          text="Elect Common Sense"
+          icon={<People fillColor="#ef0b2e" />}
+          text="End 'business as usual' in Trenton and return power to the people"
           borderColor="#ef0b2e"
         />
         <Tile
-          icon={<People fillColor="#ef0b2e" />}
-          text="End 'business as usual' in Trenton and return power to the people"
+          icon={<Ballot fillColor="#ef0b2e" />}
+          text="Elect Common Sense"
           borderColor="#ef0b2e"
         />
       </div>
