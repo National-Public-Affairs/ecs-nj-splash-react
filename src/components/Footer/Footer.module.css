@@ -1,9 +1,22 @@
 .wrapper {
-  padding: 3vh 0;
+  padding: 3vh 20%;
   border-top: 2px solid var(--purple-3);
   background-color: var(--purple-2);
 }
 
 .logo {
   width: clamp(75px, 25vmin, 170px);
+}
+
+.disclaimer {
+  margin-top: 1rem;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  .wrapper {
+    padding: 3vh 10%;
+  }
 }
