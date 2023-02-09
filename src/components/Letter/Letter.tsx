@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.png';
+import headshot from '../../assets/bill-headshot.jpg';
 import styles from './Letter.module.css';
 
 export default function Letter() {
@@ -43,7 +44,11 @@ export default function Letter() {
       <p>
         Join Us,
       </p>
-
+      <img
+        src={headshot}
+        alt="Bill Spadea–Elect Common Sense"
+        className={styles.headshot}
+      />
       <p>
         Bill Spadea
         <br />

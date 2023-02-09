@@ -26,6 +26,11 @@
   margin: 0 40%;
 }
 
+.headshot {
+  width: 100px;
+  border-radius: 10px;
+}
+
 /* general mobile styling */
 @media only screen and (max-width: 900px) and (min-height: 300px) {
   .wrapper {
