@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         Paid for by Elect Common Sense.
         <br />
-        138 Conant St, STE 401, Beverly MA 01915
+        53 South Jefferson Road, Suite L, Whippany, NJ 07981
         <br />
         This advertisement was not requested or approved by any candidate.
       </div>
