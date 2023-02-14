@@ -28,6 +28,11 @@ export default function Navbar() {
           >
             MISSION
           </Link>
+          <a
+            href="https://secure.winred.com/elect-common-sense/contact-us"
+          >
+            CONTACT
+          </a>
         </div>
 
         <div className={styles.right}>
