@@ -31,7 +31,12 @@ export default function Navbar() {
         </div>
 
         <div className={styles.right}>
-          <a className={styles.link}>DONATE</a>
+          <a
+            href="https://secure.winred.com/elect-common-sense/donate-today"
+            className={styles.link}
+          >
+            DONATE
+          </a>
         </div>
       </nav>
 
@@ -57,7 +62,12 @@ export default function Navbar() {
         >
           MISSION
         </Link>
-        <a className={styles.link}>DONATE</a>
+        <a
+          href="https://secure.winred.com/elect-common-sense/donate-today"
+          className={styles.link}
+        >
+          DONATE
+        </a>
       </nav>
     </>
   );
