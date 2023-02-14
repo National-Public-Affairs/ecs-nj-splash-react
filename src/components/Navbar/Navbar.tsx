@@ -68,6 +68,11 @@ export default function Navbar() {
           MISSION
         </Link>
         <a
+            href="https://secure.winred.com/elect-common-sense/contact-us"
+          >
+            CONTACT
+          </a>
+        <a
           href="https://secure.winred.com/elect-common-sense/donate-today"
           className={styles.link}
         >
