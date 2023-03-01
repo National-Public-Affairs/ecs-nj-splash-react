@@ -1,0 +1,45 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+  display: grid;
+  grid-template: 100% / 100%;
+}
+
+.container {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  width: 80%;
+  max-width: 850px;
+  height: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+.embed-wrapper {
+  height: 90%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.close {
+  margin-left: calc(100% - 48px);
+  cursor: pointer;
+  fill: var(--purple-3);
+}
+
+/* general mobile styling */
+@media only screen and (max-width: 900px) and (min-height: 300px) {
+  .container {
+    height: 70%;
+  }
+}
