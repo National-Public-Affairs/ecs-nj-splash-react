@@ -1,12 +1,29 @@
 .wrapper {
-  width: 80%;
-  min-width: 33vw;
-  max-width: 1000px;
-  margin: 5vh auto;
+  flex-basis: 30%;
+  padding: 1rem;
+  border: 5px solid rgb(58, 51, 147);
+  border-radius: 1rem;
 }
 
 .pic {
-  width: 100px;
-  height: 100px;
-  /* width: clamp(12px); */
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.name {
+  margin-top: 1rem;
+  color: var(--red);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title {
+  color: var(--purple-3);
+}
+
+.subtitle {
+  font-weight: 600;
+  color: var(--purple-3);
 }
