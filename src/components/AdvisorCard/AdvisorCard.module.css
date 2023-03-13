@@ -1,5 +1,4 @@
 .wrapper {
-  flex-basis: 30%;
   padding: 1rem;
   border: 5px solid rgb(58, 51, 147);
   border-radius: 1rem;
@@ -26,11 +25,4 @@
 .subtitle {
   font-weight: 600;
   color: var(--purple-3);
-}
-
-/* general mobile styling */
-@media only screen and (max-width: 900px) and (min-height: 300px) {
-  .wrapper {
-    flex-basis: 100%;
-  }
 }
