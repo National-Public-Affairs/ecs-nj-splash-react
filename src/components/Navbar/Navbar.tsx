@@ -28,6 +28,16 @@ export default function Navbar() {
           >
             MISSION
           </Link>
+          <Link
+            to="/advisors"
+            className={
+              location.pathname === '/advisors'
+                ? styles.selected
+                : ''
+            }
+          >
+            ADVISORS
+          </Link>
           <a
             href="https://secure.winred.com/elect-common-sense/contact-us"
           >

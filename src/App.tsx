@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import VideoPopup from './components/Popup/VideoPopup';
 import Home from './pages/Home/Home';
 import Mission from './pages/Mission/Mission';
+import Advisors from './pages/Advisors/Advisors';
 import './App.css';
 
 const delay = 2;
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/advisors" element={<Advisors />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="*" element={null} />
       </Routes>
