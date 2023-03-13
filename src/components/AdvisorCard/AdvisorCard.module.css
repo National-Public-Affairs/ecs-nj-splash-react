@@ -1,0 +1,12 @@
+.wrapper {
+  width: 80%;
+  min-width: 33vw;
+  max-width: 1000px;
+  margin: 5vh auto;
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+  /* width: clamp(12px); */
+}
