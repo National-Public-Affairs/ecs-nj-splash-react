@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Squash as Hamburger } from 'hamburger-react';
+import Modal from './Modal';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
+  const [open, setOpen] = useState<boolean>(false);
   const location = useLocation();
 
   return (
@@ -67,21 +71,13 @@ export default function Navbar() {
         >
           HOME
         </Link>
-        <Link
-          to="/mission"
-          className={
-            location.pathname === '/mission'
-              ? styles.selected
-              : ''
-          }
-        >
-          MISSION
-        </Link>
-        <a
-            href="https://secure.winred.com/elect-common-sense/contact-us"
-          >
-            CONTACT
-          </a>
+
+        {/* mobile hamburger */}
+        <Hamburger toggled={open} toggle={setOpen} rounded />
+
+        {/* mobile modal nav menu */}
+        <Modal open={open} setOpen={setOpen} />
+          
         <a
           href="https://secure.winred.com/elect-common-sense/donate-today"
           className={styles.link}
