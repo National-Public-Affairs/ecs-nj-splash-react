@@ -1,4 +1,5 @@
 .wrapper {
+  min-height: 280px;
   padding: 1rem;
   border: 5px solid rgb(58, 51, 147);
   border-radius: 1rem;

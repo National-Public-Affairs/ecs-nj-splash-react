@@ -15,7 +15,13 @@ const pageData = [
     img={Nader}
     name="Elizabeth Nader"
     title="Chair"
-    subtitle=""
+    subtitle=" "
+  />,
+  <AdvisorCard
+    img={Gilmore}
+    name="George Gilmore"
+    title="Senior Advisor, Elect Common Sense"
+    subtitle="Chairman, Ocean County GOP"
   />,
   <AdvisorCard
     img={Gill}
@@ -46,12 +52,6 @@ const pageData = [
     name="Guy DiMemmo"
     title="Founder & CEO"
     subtitle="Visual Computer Solutions Inc."
-  />,
-  <AdvisorCard
-    img={Gilmore}
-    name="George Gilmore"
-    title="Senior Advisor, Elect Common Sense"
-    subtitle="Chairman, Ocean County GOP"
   />,
 ];
 
