@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import VideoPopup from './components/Popup/VideoPopup';
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+      <Toaster />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
