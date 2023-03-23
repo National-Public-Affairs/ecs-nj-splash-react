@@ -17,8 +17,12 @@ export default function Stars() {
   return (
     <div className={styles.wrapper}>
       {
-        trails.map((props) => (
-          <animated.div className={styles.star} style={props}>
+        trails.map((props, idx) => (
+          <animated.div
+            key={`key-${idx}`}
+            className={styles.star}
+            style={props}
+          >
             <Star />
           </animated.div>
         ))
