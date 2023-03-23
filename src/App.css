@@ -40,3 +40,68 @@ li {
   font-weight: 500;
   font-style: normal;
 }
+
+form {
+  width: 80%;
+  max-width: 400px;
+  min-height: 360px;
+  margin: 15vh auto;
+  padding: 2rem;
+  border: 5px solid rgb(58, 51, 147);
+  border-radius: 1rem;
+  box-shadow: 
+    1px 0.4px 2.2px rgba(0, 0, 0, 0.014), 
+    2.5px 0.9px 5.3px rgba(0, 0, 0, 0.02), 
+    4.6px 1.8px 10px rgba(0, 0, 0, 0.025), 
+    8.3px 3.1px 17.9px rgba(0, 0, 0, 0.03), 
+    15.5px 5.8px 33.4px rgba(0, 0, 0, 0.036), 
+    37px 14px 80px rgba(0, 0, 0, 0.05)
+  ;
+  text-align: left;
+}
+
+label {
+  font-family: Interstate;
+  font-size: 1.2rem;
+  color: var(--purple-3);
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(58, 51, 147);
+  border-radius: 0.75rem;
+  background-color: white;
+  font-family: Interstate;
+  font-size: 1.2rem;
+  color: var(--purple-3);
+  transition: all 150ms ease-in-out;
+}
+
+input.submit:hover {
+  background-color: var(--red);
+  color: white;
+}
+
+input.submit:active {
+  background-color: var(--purple-3);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: 3px solid var(--red);
+}
+
+.checkbox-wrapper {
+  margin: 0.5rem 0 1.5rem 0;
+  padding: 1rem;
+  border: 2px solid rgb(58, 51, 147);
+  border-radius: 0.75rem;
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  color: var(--purple-3);
+}
