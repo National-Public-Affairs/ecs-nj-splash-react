@@ -10,17 +10,7 @@ import Advisors from './pages/Advisors/Advisors';
 import Contact from './pages/Contact/Contact';
 import './App.css';
 
-const delay = 2;
-
 function App() {
-  const [toggle, setPopup] = useState<boolean>(false);
-
-  useEffect(() => {
-    let timer = setTimeout(() => setPopup(true), delay * 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div className="App">
       <Toaster />
@@ -33,11 +23,6 @@ function App() {
         <Route path="*" element={null} />
       </Routes>
       <Footer />
-      {
-        toggle
-          ? <VideoPopup setPopup={setPopup} />
-          : null
-      }
     </div>
   );
 }
