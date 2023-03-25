@@ -1,11 +1,6 @@
-import CloseButton from '../../assets/SVG/CloseButton';
 import styles from './Popup.module.css';
 
-type Props = {
-  setPopup: Function,
-}
-
-export default function VideoPopup({ setPopup }: Props) {
+export default function VideoPopup() {
   return (
     <div className={styles.embedWrapper}>
       <iframe
