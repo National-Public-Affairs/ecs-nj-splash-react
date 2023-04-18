@@ -1,0 +1,15 @@
+.wrapper {
+  min-height: 85vh;
+  display: grid;
+  grid-template: 100% / 100%;
+}
+
+.content {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 4vmin;
+  color: var(--red);
+}
