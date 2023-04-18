@@ -14,6 +14,14 @@
   line-height: 12px;
 }
 
+.links-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /* general mobile styling */
 @media only screen and (max-width: 900px) and (min-height: 300px) {
   .wrapper {
