@@ -17,8 +17,8 @@ export default function Footer() {
       </div>
 
       <div className={styles.linksWrapper}>
-        <Link to="/terms">
-          Terms
+        <Link to="/terms-of-service">
+          Terms of Service
         </Link>
 
         <Link to="/privacy-policy">
