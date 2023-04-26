@@ -136,7 +136,7 @@ export default function Contact() {
         </div>
 
         <p className={styles.disclaimer}>
-          By checking this box, I expressly consent to receive calls and text messages from Elect Common sense, whether live or containing prerecorded or artificial voice, including calls and text messages made using an automatic telephone dialing system. I understand that message and data rates may apply. I understand that I may revoke this consent at any time by texting “STOP” to any mobile message sent from Elect Common Sense.
+          By checking this box, I expressly consent to receive text messages from Elect Common sense. I understand that message and data rates may apply. I understand that I may revoke this consent at any time by texting “STOP” to any mobile message sent from Elect Common Sense. Text JOIN to 83902 to opt in to future traffic.
         </p>
 
         <label>
