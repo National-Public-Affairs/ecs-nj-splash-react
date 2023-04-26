@@ -31,6 +31,11 @@ h2 {
   line-height: clamp(22px, 7vmax, 140px);
 }
 
+h3 {
+  font-size: clamp(12px, 3vmax, 75px);
+  line-height: clamp(18px, 3.5vmax, 90px);
+}
+
 h6 {
   color: var(--purple-3);
 }
