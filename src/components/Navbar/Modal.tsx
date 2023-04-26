@@ -31,13 +31,20 @@ export default function Modal({ open, setOpen }: Props) {
         ADVISORS
       </Link>
       {/* use /contact page for verification; reinstall this page once verification is complete */}
-      <a
+      {/* <a
         href="https://secure.winred.com/elect-common-sense/contact-us"
         className={styles.modalOption}
         onClick={() => setOpen(false)}
       >
         CONTACT
-      </a>
+      </a> */}
+      <Link
+        to="/contact"
+        className={styles.modalOption}
+        onClick={() => setOpen(false)}
+      >
+        CONTACT
+      </Link>
     </animated.div>
   ))
 }

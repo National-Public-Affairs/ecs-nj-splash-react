@@ -42,11 +42,21 @@ export default function Navbar() {
           >
             ADVISORS
           </Link>
-          <a
+          {/* <a
             href="https://secure.winred.com/elect-common-sense/contact-us"
           >
             CONTACT
-          </a>
+          </a> */}
+          <Link
+            to="/contact"
+            className={
+              location.pathname === '/contact'
+                ? styles.selected
+                : ''
+            }
+          >
+            CONTACT
+          </Link>
         </div>
 
         <div className={styles.right}>
