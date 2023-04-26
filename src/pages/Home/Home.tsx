@@ -10,7 +10,7 @@ export default function Home() {
         whiteText="COMMON SENSE"
         children={[
           <Letter key={1} />,
-          <VideoPopup key={2} />
+          <VideoPopup key={2} />,
         ]}
       />
     </div>
